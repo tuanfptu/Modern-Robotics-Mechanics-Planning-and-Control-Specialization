@@ -1,4 +1,4 @@
-# ROS 2 Humble — mở rộng tùy chọn
+# Optional ROS 2 Humble Integration
 
 Phần lõi chạy bằng Python, không phụ thuộc ROS. Chưa có node hay package ROS trong kho này.
 

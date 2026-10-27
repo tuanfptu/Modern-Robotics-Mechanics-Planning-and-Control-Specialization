@@ -1,38 +1,34 @@
-# Modern Robotics — Nhật ký học bằng tiếng Việt
+# Modern Robotics: Mechanics, Planning, and Control
 
-Nhật ký tự học của Tuan Ha và tài nguyên giáo dục miễn phí cho sinh viên theo học **Modern Robotics: Mechanics, Planning, and Control** của Northwestern University trên Coursera. Kho này lưu cách hiểu cá nhân, mã thử nghiệm và bài tập tự đặt bằng tiếng Việt.
+A personal learning journal by Tuan Ha and a free study resource accompanying Northwestern University's six-course **Modern Robotics** specialization on Coursera. This repository brings together study notes, original practice problems, Python implementations, and simulation experiments.
 
-**Hiện trạng:** mới có khung cho sáu khóa, mẫu bài học và một ví dụ Forward Kinematics đã kiểm thử. Chưa có ghi chú bài học hoàn chỉnh; chưa xác nhận hoàn thành khóa nào.
+**Current status:** the six-course scaffold, lesson templates, and a tested planar 2-DOF forward kinematics example are available. Course notes have not been written, and no course is marked complete.
 
-## Mục tiêu học tập
+## Learning Objectives
 
-- Hiểu Configuration Space, biểu diễn chuyển động và hệ tọa độ.
-- Tự triển khai và kiểm tra kinematics, dynamics, motion planning và control.
-- Kết nối mô hình toán với mô phỏng, ghi rõ giả thiết và giới hạn.
-- Rèn cách giải thích bằng tiếng Việt, giữ nguyên technical terms tiếng Anh và định nghĩa chính xác theo ngữ cảnh.
+- Understand configuration space, rigid-body motion, and reference frames.
+- Implement and verify kinematics, dynamics, motion planning, and control algorithms.
+- Connect mathematical models to simulations with explicit assumptions and limitations.
+- Develop precise technical explanations supported by reproducible experiments.
 
-## Quy ước ngôn ngữ và trình bày
+## Prerequisites
 
-Giữ nguyên technical terms bằng tiếng Anh; phần giải thích viết bằng tiếng Việt rõ ràng, có lập luận. Lần đầu xuất hiện, giải thích ý nghĩa của thuật ngữ và định nghĩa viết tắt. Mỗi bài đi từ trực giác đến định nghĩa, giả thiết, công thức và ví dụ có kiểm chứng. Xem [quy ước viết học thuật](docs/writing-guide.md) và [danh mục thuật ngữ](docs/terminology.md).
+Basic linear algebra, calculus, mechanics, and Python. The core uses **Python 3.10+**, NumPy, Matplotlib, Jupyter, and pytest. Robot hardware and ROS are optional.
 
-## Kiến thức và công cụ cần có
+## Course Roadmap
 
-Linear algebra (vector, matrix), calculus cơ bản, mechanics và Python cơ bản. Dùng Python **3.10 trở lên**, NumPy, Matplotlib, Jupyter và pytest. Không cần phần cứng robot hay ROS để bắt đầu.
-
-## Lộ trình sáu khóa
-
-| Khóa | Điều hướng | Chương sách tham chiếu | Tiến độ học |
+| Course | Course overview | Textbook chapters | Learning status |
 | --- | --- | --- | --- |
-| 1 | [Foundations of Robot Motion](courses/01-foundations-of-robot-motion/README.md) | 2, 3 | Chưa bắt đầu |
-| 2 | [Robot Kinematics](courses/02-robot-kinematics/README.md) | 4, 5, 6, 7 | Chưa bắt đầu |
-| 3 | [Robot Dynamics](courses/03-robot-dynamics/README.md) | 8, 9 | Chưa bắt đầu |
-| 4 | [Robot Motion Planning and Control](courses/04-robot-motion-planning-and-control/README.md) | 10, 11 | Chưa bắt đầu |
-| 5 | [Robot Manipulation and Wheeled Mobile Robots](courses/05-robot-manipulation-and-wheeled-mobile-robots/README.md) | 12, 13 | Chưa bắt đầu |
-| 6 | [Capstone Project, Mobile Manipulation](courses/06-capstone-mobile-manipulation/README.md) | Tích hợp | Chưa bắt đầu |
+| 1 | [Foundations of Robot Motion](courses/01-foundations-of-robot-motion/README.md) | 2, 3 | Not started |
+| 2 | [Robot Kinematics](courses/02-robot-kinematics/README.md) | 4, 5, 6, 7 | Not started |
+| 3 | [Robot Dynamics](courses/03-robot-dynamics/README.md) | 8, 9 | Not started |
+| 4 | [Robot Motion Planning and Control](courses/04-robot-motion-planning-and-control/README.md) | 10, 11 | Not started |
+| 5 | [Robot Manipulation and Wheeled Mobile Robots](courses/05-robot-manipulation-and-wheeled-mobile-robots/README.md) | 12, 13 | Not started |
+| 6 | [Capstone Project, Mobile Manipulation](courses/06-capstone-mobile-manipulation/README.md) | Integration | Not started |
 
-Học theo thứ tự. Chương sách là mốc điều hướng; xem nội dung và yêu cầu hiện hành trên Coursera.
+Follow the courses in order. Chapter numbers refer to the Modern Robotics textbook; consult Coursera for the current course schedule and requirements.
 
-## Theo dõi tiến độ
+## Learning Progress
 
 - [ ] Course 1: Foundations of Robot Motion
 - [ ] Course 2: Robot Kinematics
@@ -41,27 +37,27 @@ Học theo thứ tự. Chương sách là mốc điều hướng; xem nội dung
 - [ ] Course 5: Robot Manipulation and Wheeled Mobile Robots
 - [ ] Course 6: Capstone Project, Mobile Manipulation
 
-Chỉ đánh dấu khi thực sự hoàn thành; việc có sẵn thư mục hoặc chạy ví dụ không đồng nghĩa hoàn thành bài học.
+Mark an item only after completing the corresponding learning activities. Templates and starter examples do not count as course completion.
 
-## Cài đặt trên Ubuntu 22.04
+## Installation — Ubuntu 22.04
 
 ```bash
 sudo apt update
 sudo apt install -y git python3 python3-venv python3-pip
-git clone https://github.com/tuanfptu/modern-robotics-vietnamese.git
-cd modern-robotics-vietnamese
-python3 --version  # yêu cầu >= 3.10
+git clone https://github.com/tuanfptu/Modern-Robotics-Mechanics-Planning-and-Control-Specialization.git
+cd Modern-Robotics-Mechanics-Planning-and-Control-Specialization
+python3 --version  # Python >= 3.10
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Nếu đang dùng bản sao cục bộ chưa được xuất bản, vào thư mục đó và bắt đầu từ lệnh tạo `.venv`. Các khoảng phiên bản trong requirements giữ phụ thuộc gọn nhẹ; đây không phải lockfile tái lập chính xác mọi phiên bản tương lai.
+For an existing local checkout, start with the virtual environment steps. Dependencies use bounded version ranges rather than an exact lockfile.
 
-## Chạy ví dụ và kiểm thử
+## Run the Example and Tests
 
-Từ thư mục gốc của kho, sau khi kích hoạt `.venv`:
+From the repository root, with `.venv` activated:
 
 ```bash
 python courses/02-robot-kinematics/code/planar_2dof.py
@@ -70,37 +66,59 @@ python -m pytest -q
 jupyter notebook
 ```
 
-Lệnh đầu in tọa độ; `--save` tạo hình và hoạt động cả khi không có màn hình. Dùng `--show` để mở cửa sổ đồ thị trên máy có giao diện. Trong Jupyter, mở mẫu ở `courses/01-foundations-of-robot-motion/notebooks/`.
+The first command prints the end-effector position. `--save` writes a plot without requiring a display; `--show` opens an interactive plot on a desktop. In Jupyter, start with a notebook template under `courses/01-foundations-of-robot-motion/notebooks/`.
 
-Ví dụ planar 2R robot gồm hai revolute joints nối hai links. Link lengths $l_1,l_2>0$ tính bằng mét; joint angles $\theta_1,\theta_2$ tính bằng radian và dương ngược chiều kim đồng hồ. Base frame đặt tại joint 1, trục $x$ hướng sang phải và trục $y$ hướng lên trên. $\theta_1$ được đo từ trục $x$; $\theta_2$ được đo tương đối từ link 1 đến link 2. End-effector position trong base frame được tính bằng:
+### Planar 2R Robot — Forward Kinematics
+
+The example models two revolute joints and two rigid links. Link lengths $l_1,l_2>0$ are in metres; joint angles $\theta_1,\theta_2$ are in radians, positive counterclockwise. The base frame is at joint 1, with $x$ pointing right and $y$ pointing up. Angle $\theta_1$ is measured from the base-frame $x$ axis; $\theta_2$ is measured relative to link 1.
+
+The end-effector position, expressed in the base frame, is:
 
 $$
 x = l_1\cos\theta_1 + l_2\cos(\theta_1+\theta_2),\qquad
 y = l_1\sin\theta_1 + l_2\sin(\theta_1+\theta_2).
 $$
 
-Với $l_1=l_2=1$, $\theta_1=\pi/4$, $\theta_2=\pi/2$, kết quả xấp xỉ $(0, 1.414214)$ m. Đây là ví dụ độc lập, không phải bài chấm điểm.
+For $l_1=l_2=1$, $\theta_1=\pi/4$, and $\theta_2=\pi/2$, the expected position is approximately $(0, 1.414214)$ m. This is an original standalone example, not a graded assignment solution.
 
-## Bắt đầu Course 1
+## Repository Structure
 
-1. Mở [tổng quan Course 1](courses/01-foundations-of-robot-motion/README.md).
-2. Học từ nguồn chính thức rồi tự điền [mẫu chương 2](courses/01-foundations-of-robot-motion/notes/chapter-02.md).
-3. Định nghĩa ký hiệu, đơn vị và tự đặt câu hỏi kiểm tra; ghi ngày học và bằng chứng.
-4. Sao chép mẫu notebook khi cần thí nghiệm. Chỉ thêm mã đã chạy và kiểm thử; chưa làm thì giữ trạng thái chưa hoàn thành.
+Each course contains:
 
-Mỗi khóa có `notes/`, `code/`, `notebooks/`, `exercises/` và `README.md`. Dùng tên tệp tiếng Anh dạng `snake_case` cho Python; giữ bài học ngắn, nguồn rõ và diễn giải bằng lời của mình.
+| Directory | Purpose |
+| --- | --- |
+| `notes/` | Lesson templates, mathematical notation, and future study notes |
+| `code/` | Original, tested Python implementations |
+| `notebooks/` | Visualization and simulation experiments |
+| `exercises/` | Original practice problems and self-assessment |
+| `README.md` | Course overview, chapter navigation, and progress |
 
-## ROS 2 tùy chọn
+## Start with Course 1
 
-Xem [kế hoạch ROS 2 Humble riêng](optional/ros2/README.md). Chưa có tích hợp ROS; phần lõi không yêu cầu ROS.
+1. Open the [Course 1 overview](courses/01-foundations-of-robot-motion/README.md).
+2. Study the official material, then fill in the [Chapter 2 template](courses/01-foundations-of-robot-motion/notes/chapter-02.md) in your own words.
+3. Define notation, units, and reference frames; record questions and evidence of understanding.
+4. Create experiments when useful. Publish only code that has been run and tested, and report actual results.
 
-## Nguồn chính thức và bản quyền
+## Writing and Study Conventions
 
-- [Chuyên ngành trên Coursera](https://www.coursera.org/specializations/modernrobotics).
-- [Modern Robotics: sách và phần mềm](https://modernrobotics.org/), Kevin M. Lynch và Frank C. Park, Cambridge University Press, 2017.
-- [Tài nguyên bổ trợ của Northwestern](https://modernrobotics.northwestern.edu/).
-- [Thư viện Modern Robotics chính thức](https://github.com/NxRLab/ModernRobotics) — chỉ tham khảo, chưa là phụ thuộc của kho.
+Use English for technical terms, headings, code, and concise technical summaries. Use Vietnamese explanations where they make intuition or a derivation easier to follow. Avoid repeating every sentence in both languages.
 
-Đây là **dự án giáo dục độc lập**, không trực thuộc, không được bảo trợ và không phải tài liệu chính thức của Northwestern University hoặc Coursera. Không lưu video, slide, bản sao giáo trình hay lời giải bài chấm điểm. Nội dung gốc của bên thứ ba thuộc chủ sở hữu tương ứng; hãy truy cập qua liên kết chính thức.
+Build each lesson around **intuition → definitions → assumptions → derivation → worked example → verification and limitations**. Define abbreviations on first use, cite specific sources, and distinguish established results from personal observations. See the [writing guide](docs/writing-guide.md) and [terminology reference](docs/terminology.md).
 
-Mã và nội dung gốc trong kho được phát hành theo [MIT License](LICENSE), cho phép sử dụng, sửa đổi và phân phối với thông báo bản quyền. Giấy phép này không cấp quyền đối với tài liệu bên thứ ba được dẫn liên kết.
+## Optional ROS 2 Integration
+
+[ROS 2 Humble](optional/ros2/README.md) is a separate future extension. No ROS packages or nodes are implemented yet, and the core does not depend on ROS.
+
+## Official Resources
+
+- [Coursera specialization](https://www.coursera.org/specializations/modernrobotics)
+- [Modern Robotics — textbook and software](https://modernrobotics.org/), Kevin M. Lynch and Frank C. Park, Cambridge University Press, 2017
+- [Northwestern video supplements](https://modernrobotics.northwestern.edu/)
+- [Official Modern Robotics library](https://github.com/NxRLab/ModernRobotics), referenced but not required by the core
+
+## Independence and License
+
+This is an **independent educational project**, not affiliated with or endorsed by Northwestern University or Coursera. It does not reproduce course videos, slides, textbook copies, quizzes, or graded assignment solutions. Access third-party materials through their official sources.
+
+Original code and documentation are released under the [MIT License](LICENSE). Linked third-party materials remain subject to their owners' terms.

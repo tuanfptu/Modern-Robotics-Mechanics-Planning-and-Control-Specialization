@@ -1,8 +1,8 @@
-# Danh mục thuật ngữ khởi đầu
+# Terminology Reference
 
 Bảng này thống nhất cách dùng từ trong kho. Phần giải thích ngắn giúp định hướng; khi viết bài học cần bổ sung định nghĩa toán học, giả thiết và nguồn cụ thể. Đây không phải ghi chú hoàn chỉnh hay xác nhận tiến độ học.
 
-| English term | Giải thích ngắn bằng tiếng Việt |
+| English term | Conceptual explanation |
 | --- | --- |
 | degrees of freedom (DOF) | Số tham số độc lập cần để mô tả configuration, theo mô hình và constraints đang xét. |
 | configuration space (C-space) | Tập tất cả configurations khả dĩ của hệ theo các constraints đã nêu. |

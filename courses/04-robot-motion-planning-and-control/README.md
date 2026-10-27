@@ -1,31 +1,31 @@
 # Course 4: Robot Motion Planning and Control
 
-Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
+Status: **Not started**. Notes are empty templates, not completed lessons.
 
-Mục tiêu dự kiến: Motion Planning; Robot Control.
+Planned scope: Motion Planning; Robot Control.
 
-## Điều hướng chương
+## Chapter Navigation
 
-- [ ] [Chương 10: Motion Planning](notes/chapter-10.md)
-- [ ] [Chương 11: Robot Control](notes/chapter-11.md)
+- [ ] [Chapter 10: Motion Planning](notes/chapter-10.md)
+- [ ] [Chapter 11: Robot Control](notes/chapter-11.md)
 
-Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
+Chapters follow the Modern Robotics textbook rather than Coursera week numbers.
 
-## Thư mục
+## Contents
 
-- [notes/](notes/): mẫu ghi chú tiếng Việt, ký hiệu và công thức LaTeX.
-- [code/](code/): mã Python do người học tự viết và kiểm thử.
-- [notebooks/](notebooks/): mẫu notebook cho thí nghiệm trực quan.
-- [exercises/](exercises/): mẫu bài tập tự đặt và tự kiểm tra.
+- [notes/](notes/): lesson templates, notation, and LaTeX equations.
+- [code/](code/): original, tested Python implementations.
+- [notebooks/](notebooks/): templates for visualization experiments.
+- [exercises/](exercises/): original practice and self-assessment templates.
 
-## Tiến độ cá nhân
+## Learning Progress
 
-- [ ] Đọc tài liệu và xem bài học chính thức.
-- [ ] Viết ghi chú bằng lời của mình.
-- [ ] Tự đặt bài tập và kiểm tra kết quả.
-- [ ] Chạy và kiểm thử mã thí nghiệm.
-- [ ] Tổng kết những điểm còn chưa hiểu.
+- [ ] Study the official reading and lectures.
+- [ ] Write notes in my own words.
+- [ ] Create original exercises and verify results.
+- [ ] Run and test experimental code.
+- [ ] Record remaining questions and misconceptions.
 
-Chỉ đánh dấu sau khi thực sự hoàn thành. Ví dụ có sẵn không thể hiện tiến độ học.
+Check items only after completion. Starter examples do not represent learning progress.
 
-[Tài nguyên chính thức](https://www.coursera.org/specializations/modernrobotics) · [Về trang chủ](../../README.md)
+[Official course](https://www.coursera.org/specializations/modernrobotics) · [Repository home](../../README.md)

@@ -1,15 +1,15 @@
-# Mẫu bài tập tự đặt
+# Original Exercise Template
 
 Trạng thái: chưa có bài tập hoàn chỉnh.
 
-## Đề bài gốc do người học tự viết
+## Original Problem Statement
 
 <!-- Nêu dữ kiện, đơn vị, giả thiết và đại lượng cần tìm. -->
 
-## Cách tự kiểm tra
+## Verification Strategy
 
 <!-- Dự đoán một trường hợp đơn giản; kiểm tra bằng hình học hoặc phương pháp độc lập. -->
 
-## Lời giải cá nhân và nhận xét
+## Personal Solution and Reflection
 
 <!-- Chỉ đăng bài tự đặt; không đăng đáp án quiz hoặc bài chấm điểm của Coursera. -->
