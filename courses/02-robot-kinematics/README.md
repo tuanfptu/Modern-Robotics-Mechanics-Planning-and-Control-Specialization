@@ -2,14 +2,14 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: động học thuận; động học vận tốc và tĩnh học; động học nghịch; động học chuỗi kín.
+Mục tiêu dự kiến: Forward Kinematics; Velocity Kinematics and Statics; Inverse Kinematics; Kinematics of Closed Chains.
 
 ## Điều hướng chương
 
-- [ ] [Chương 4: Động học thuận](notes/chapter-04.md)
-- [ ] [Chương 5: Động học vận tốc và tĩnh học](notes/chapter-05.md)
-- [ ] [Chương 6: Động học nghịch](notes/chapter-06.md)
-- [ ] [Chương 7: Động học chuỗi kín](notes/chapter-07.md)
+- [ ] [Chương 4: Forward Kinematics](notes/chapter-04.md)
+- [ ] [Chương 5: Velocity Kinematics and Statics](notes/chapter-05.md)
+- [ ] [Chương 6: Inverse Kinematics](notes/chapter-06.md)
+- [ ] [Chương 7: Kinematics of Closed Chains](notes/chapter-07.md)
 
 Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
 

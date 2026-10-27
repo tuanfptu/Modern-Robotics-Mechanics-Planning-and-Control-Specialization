@@ -2,7 +2,7 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: tích hợp kiến thức về robot di động và tay máy trong một thử nghiệm cá nhân.
+Mục tiêu dự kiến: tích hợp kiến thức về mobile robot và robot arm trong một thử nghiệm cá nhân.
 
 ## Điều hướng chương
 

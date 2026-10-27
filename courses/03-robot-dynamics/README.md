@@ -2,12 +2,12 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: động lực học chuỗi hở; sinh quỹ đạo.
+Mục tiêu dự kiến: Dynamics of Open Chains; Trajectory Generation.
 
 ## Điều hướng chương
 
-- [ ] [Chương 8: Động lực học chuỗi hở](notes/chapter-08.md)
-- [ ] [Chương 9: Sinh quỹ đạo](notes/chapter-09.md)
+- [ ] [Chương 8: Dynamics of Open Chains](notes/chapter-08.md)
+- [ ] [Chương 9: Trajectory Generation](notes/chapter-09.md)
 
 Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
 

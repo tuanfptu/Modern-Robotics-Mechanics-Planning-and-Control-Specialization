@@ -2,12 +2,12 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: không gian cấu hình; chuyển động vật rắn.
+Mục tiêu dự kiến: Configuration Space; Rigid-Body Motions.
 
 ## Điều hướng chương
 
-- [ ] [Chương 2: Không gian cấu hình](notes/chapter-02.md)
-- [ ] [Chương 3: Chuyển động vật rắn](notes/chapter-03.md)
+- [ ] [Chương 2: Configuration Space](notes/chapter-02.md)
+- [ ] [Chương 3: Rigid-Body Motions](notes/chapter-03.md)
 
 Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
 

@@ -1,4 +1,4 @@
-# Chương 6: Động học nghịch
+# Chương 6: Inverse Kinematics
 
 Trạng thái: **Mẫu — chưa học / chưa viết**.
 
@@ -10,19 +10,27 @@ Trạng thái: **Mẫu — chưa học / chưa viết**.
 
 <!-- Ghi URL, chương/mục và ngày đọc; chỉ liên kết tới tài liệu gốc. -->
 
-## Giải thích bằng lời của mình
+## Trực giác và ý nghĩa vật lý
 
-<!-- Tự viết bằng tiếng Việt, kèm thuật ngữ tiếng Anh khi cần. -->
+<!-- Nêu câu hỏi đang giải quyết và một hình dung đơn giản trước khi dùng công thức. -->
+
+## Định nghĩa và lập luận
+
+<!-- Giải thích bằng tiếng Việt; giữ nguyên technical terms bằng tiếng Anh theo docs/writing-guide.md. Lần đầu dùng phải giải thích ý nghĩa và định nghĩa viết tắt. -->
 
 ## Ký hiệu, giả thiết và công thức
 
-<!-- Định nghĩa hệ tọa độ, đơn vị, kích thước ma trận và điều kiện áp dụng.
+<!-- Định nghĩa reference frame, đơn vị, kích thước matrix, quy ước dấu và điều kiện áp dụng.
 Công thức nội tuyến: $...$; công thức riêng dòng: $$ ... $$.
 -->
 
 ## Ví dụ tự xây dựng
 
-<!-- Ghi đầu vào, dự đoán và cách kiểm chứng độc lập. -->
+<!-- Nêu input và giả thiết; dự đoán output; trình bày từng bước và giải thích kết quả. Kiểm chứng bằng hình học, đơn vị hoặc trường hợp đặc biệt. -->
+
+## Phạm vi áp dụng và lỗi thường gặp
+
+<!-- Nêu giới hạn của mô hình; phân biệt khái niệm dễ nhầm. Chỉ ghi điều đã kiểm chứng. -->
 
 ## Tự kiểm tra và câu hỏi còn mở
 

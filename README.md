@@ -2,18 +2,22 @@
 
 Nhật ký tự học của Tuan Ha và tài nguyên giáo dục miễn phí cho sinh viên theo học **Modern Robotics: Mechanics, Planning, and Control** của Northwestern University trên Coursera. Kho này lưu cách hiểu cá nhân, mã thử nghiệm và bài tập tự đặt bằng tiếng Việt.
 
-**Hiện trạng:** mới có khung cho sáu khóa, mẫu bài học và một ví dụ động học thuận đã kiểm thử. Chưa có ghi chú bài học hoàn chỉnh; chưa xác nhận hoàn thành khóa nào.
+**Hiện trạng:** mới có khung cho sáu khóa, mẫu bài học và một ví dụ Forward Kinematics đã kiểm thử. Chưa có ghi chú bài học hoàn chỉnh; chưa xác nhận hoàn thành khóa nào.
 
 ## Mục tiêu học tập
 
-- Hiểu không gian cấu hình, biểu diễn chuyển động và hệ tọa độ.
-- Tự triển khai và kiểm tra động học, động lực học, lập kế hoạch và điều khiển.
+- Hiểu Configuration Space, biểu diễn chuyển động và hệ tọa độ.
+- Tự triển khai và kiểm tra kinematics, dynamics, motion planning và control.
 - Kết nối mô hình toán với mô phỏng, ghi rõ giả thiết và giới hạn.
-- Rèn cách giải thích bằng tiếng Việt và đối chiếu thuật ngữ tiếng Anh.
+- Rèn cách giải thích bằng tiếng Việt, giữ nguyên technical terms tiếng Anh và định nghĩa chính xác theo ngữ cảnh.
+
+## Quy ước ngôn ngữ và trình bày
+
+Giữ nguyên technical terms bằng tiếng Anh; phần giải thích viết bằng tiếng Việt rõ ràng, có lập luận. Lần đầu xuất hiện, giải thích ý nghĩa của thuật ngữ và định nghĩa viết tắt. Mỗi bài đi từ trực giác đến định nghĩa, giả thiết, công thức và ví dụ có kiểm chứng. Xem [quy ước viết học thuật](docs/writing-guide.md) và [danh mục thuật ngữ](docs/terminology.md).
 
 ## Kiến thức và công cụ cần có
 
-Đại số tuyến tính (vector, ma trận), giải tích cơ bản, cơ học và Python cơ bản. Dùng Python **3.10 trở lên**, NumPy, Matplotlib, Jupyter và pytest. Không cần phần cứng robot hay ROS để bắt đầu.
+Linear algebra (vector, matrix), calculus cơ bản, mechanics và Python cơ bản. Dùng Python **3.10 trở lên**, NumPy, Matplotlib, Jupyter và pytest. Không cần phần cứng robot hay ROS để bắt đầu.
 
 ## Lộ trình sáu khóa
 
@@ -68,7 +72,7 @@ jupyter notebook
 
 Lệnh đầu in tọa độ; `--save` tạo hình và hoạt động cả khi không có màn hình. Dùng `--show` để mở cửa sổ đồ thị trên máy có giao diện. Trong Jupyter, mở mẫu ở `courses/01-foundations-of-robot-motion/notebooks/`.
 
-Ví dụ robot phẳng 2R dùng hai khớp quay, độ dài dương theo mét, góc theo radian, chiều dương ngược kim đồng hồ; góc khớp 2 tương đối với khâu 1. Vị trí đầu công tác:
+Ví dụ planar 2R robot gồm hai revolute joints nối hai links. Link lengths $l_1,l_2>0$ tính bằng mét; joint angles $\theta_1,\theta_2$ tính bằng radian và dương ngược chiều kim đồng hồ. Base frame đặt tại joint 1, trục $x$ hướng sang phải và trục $y$ hướng lên trên. $\theta_1$ được đo từ trục $x$; $\theta_2$ được đo tương đối từ link 1 đến link 2. End-effector position trong base frame được tính bằng:
 
 $$
 x = l_1\cos\theta_1 + l_2\cos(\theta_1+\theta_2),\qquad

@@ -2,12 +2,12 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: lập kế hoạch chuyển động; điều khiển robot.
+Mục tiêu dự kiến: Motion Planning; Robot Control.
 
 ## Điều hướng chương
 
-- [ ] [Chương 10: Lập kế hoạch chuyển động](notes/chapter-10.md)
-- [ ] [Chương 11: Điều khiển robot](notes/chapter-11.md)
+- [ ] [Chương 10: Motion Planning](notes/chapter-10.md)
+- [ ] [Chương 11: Robot Control](notes/chapter-11.md)
 
 Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
 

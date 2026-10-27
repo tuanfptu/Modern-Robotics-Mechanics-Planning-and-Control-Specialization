@@ -2,12 +2,12 @@
 
 Trạng thái: **Chưa bắt đầu học**. Các tệp ghi chú là mẫu trống, không phải bài giảng hoàn chỉnh.
 
-Mục tiêu dự kiến: nắm bắt và thao tác; robot di động có bánh xe.
+Mục tiêu dự kiến: Grasping and Manipulation; Wheeled Mobile Robots.
 
 ## Điều hướng chương
 
-- [ ] [Chương 12: Nắm bắt và thao tác](notes/chapter-12.md)
-- [ ] [Chương 13: Robot di động có bánh xe](notes/chapter-13.md)
+- [ ] [Chương 12: Grasping and Manipulation](notes/chapter-12.md)
+- [ ] [Chương 13: Wheeled Mobile Robots](notes/chapter-13.md)
 
 Các chương theo sách Modern Robotics; đây không phải lịch tuần học của Coursera.
 
